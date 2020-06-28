@@ -1,11 +1,11 @@
 var express = require('express');
 var router = express.Router();
 
-/* GET users listing. */
+/* GET apps listing. */
 router.get('/', function(req, res, next) {
   res.json([
-    {id: 1, username: 'somebody'},
-    {id: 2, username: 'somebody else'}
+    {id: 1, appName: 'App 1'},
+    {id: 2, appName: 'App 2'}
   ]);
 });
 
